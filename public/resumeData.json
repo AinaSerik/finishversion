@@ -1,14 +1,14 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"SHOPIK",
+    "description":"Мы осуществляем закуп из онлайн-магазинов США и доставляем в вашу страну. Мы делаем качественный товар доступным для каждого человека. С нами Вы можете осуществлять покупки легко, быстро и безопасно!",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"Наша компания осуществляет закуп из онлайн-магазинов США с предоставлением адреса для покупки товара и доставку в вашу страну, с полным таможенным оформлением. Мы максимально сокращаем доставку товара и наценку на товар, тем самым позволяя нашим клиентам приобретать качественные товары по более низким ценам, чем в магазинах, в которых цены завышены в разы. Наша миссия - максимально убрать барьер между продавцом и покупателем для беспрепятственного закупа качественного импортного товара. Мы максимально охватываем все онлайн площадки США, работаем только с оригиналом, стремясь обойти все подделки на рынке и сделать услугу доступной каждому человеку.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "instagram":"https://www.instagram.com/ainaserikusa",
+    "whatsapp":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
       "street":"(Your Street)",
       "city":"(Your City)",

@@ -6,8 +6,6 @@ class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
-    const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
 
@@ -26,31 +24,31 @@ class Header extends Component {
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
-                Home
+                <strong>Главная</strong>
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#about">
-                About
+                <strong>О нас</strong>
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#resume">
-                Resume
+                <strong>Услуги</strong>
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                <strong>Заказ</strong>
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#contact">
-                Contact
+                <strong>Контакты</strong>
               </a>
             </li>
           </ul>
@@ -62,16 +60,21 @@ class Header extends Component {
               <h1 className="responsive-headline">{name}</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
+              <h3>{description}</h3>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
+                <a href="https://instagram.com/ainaserikusa" target="a_blank" 
+                rel="noopener noreferrer" 
+                className="button btn instagram-btn">
+                <i className="fa fa-instagram"></i>Instagram
                 </a>
-                <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
+                <a href="https://wa.me/77013617044"
+                target="a_blank"
+                rel="noopener noreferrer"
+                className="button btn whatsapp-btn">
+                  <i className="fa fa-phone"></i>WhatsApp
                 </a>
               </ul>
             </Fade>
