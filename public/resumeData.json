@@ -50,10 +50,9 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "01.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "Michael Kors",
+        "image": "kors.jpg",
+        "url": "https://www.michaelkors.com/"
       },
       {
         "title": "Fury Fighting Gear",

@@ -26,7 +26,6 @@ class Portfolio extends Component {
           <div className="row">
             <div className="twelve columns collapsed">
               <h1>Онлайн-магазины</h1>
-
               <div
                 id="portfolio-wrapper"
                 className="bgrid-quarters s-bgrid-thirds cf"
