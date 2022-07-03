@@ -1,14 +1,14 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import Fade from "react-reveal";
 
 class Footer extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const networks = this.props.data.social.map(function (network) {
+    const networks = this.props.data.social.map(function(network) {
       return (
         <li key={network.name}>
-          <a href={network.url}>
+          <a href={network.url} target="_blank" rel="noreferrer">
             <i className={network.className}></i>
           </a>
         </li>
@@ -23,13 +23,7 @@ class Footer extends Component {
               <ul className="social-links">{networks}</ul>
 
               <ul className="copyright">
-                <li>&copy; Copyright 2021 Nordic Giant</li>
-                <li>
-                  Design by{" "}
-                  <a title="Styleshout" href="http://www.styleshout.com/">
-                    Styleshout
-                  </a>
-                </li>
+                <li>&copy; Shopik 2022</li>
               </ul>
             </div>
           </Fade>

@@ -10,7 +10,6 @@ class Contact extends Component {
     const city = this.props.data.address.city;
     const state = this.props.data.address.state;
     const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
 
     return (
@@ -19,7 +18,7 @@ class Contact extends Component {
           <div className="row section-head">
             <div className="two columns header-col">
               <h1>
-                <span>Get In Touch.</span>
+                <span>Мы на связи.</span>
               </h1>
             </div>
 
@@ -87,7 +86,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <button className="submit">Submit</button>
+                    <button className="submit">Отправить</button>
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
@@ -95,9 +94,9 @@ class Contact extends Component {
                 </fieldset>
               </form>
 
-              <div id="message-warning"> Error boy</div>
+              <div id="message-warning">Ошибка</div>
               <div id="message-success">
-                <i className="fa fa-check"></i>Your message was sent, thank you!
+                <i className="fa fa-check"></i>Ваше сообщение отправлено, спасибо!
                 <br />
               </div>
             </div>
@@ -106,44 +105,13 @@ class Contact extends Component {
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
+                <h4>Адрес:</h4>
                 <p className="address">
                   {name}
                   <br />
                   {street} <br />
                   {city}, {state} {zip}
-                  <br />
-                  <span>{phone}</span>
                 </p>
-              </div>
-
-              <div className="widget widget_tweets">
-                <h4 className="widget-title">Latest Tweets</h4>
-                <ul id="twitter">
-                  <li>
-                    <span>
-                      This is Photoshop's version of Lorem Ipsum. Proin gravida
-                      nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                      quis bibendum auctor, nisi elit consequat ipsum
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
-                    </span>
-                    <b>
-                      <a href="./">2 Days Ago</a>
-                    </b>
-                  </li>
-                  <li>
-                    <span>
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium, totam rem
-                      aperiam, eaque ipsa quae ab illo inventore veritatis et
-                      quasi
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
-                    </span>
-                    <b>
-                      <a href="./">3 Days Ago</a>
-                    </b>
-                  </li>
-                </ul>
               </div>
             </aside>
           </Slide>

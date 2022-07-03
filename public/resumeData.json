@@ -4,122 +4,31 @@
     "description":"Мы осуществляем закуп из онлайн-магазинов США и доставляем в вашу страну. Мы делаем качественный товар доступным для каждого человека. С нами Вы можете осуществлять покупки легко, быстро и безопасно!",
     "image":"profilepic.jpg",
     "bio":"Наша компания осуществляет закуп из онлайн-магазинов США с предоставлением адреса для покупки товара и доставку в вашу страну, с полным таможенным оформлением. Мы максимально сокращаем доставку товара и наценку на товар, тем самым позволяя нашим клиентам приобретать качественные товары по более низким ценам, чем в магазинах, в которых цены завышены в разы. Наша миссия - максимально убрать барьер между продавцом и покупателем для беспрепятственного закупа качественного импортного товара. Мы максимально охватываем все онлайн площадки США, работаем только с оригиналом, стремясь обойти все подделки на рынке и сделать услугу доступной каждому человеку.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "contactmessage":"Если у Вас возникнут какие-либо вопросы по предоставляемой услуге, свяжитесь с нами, используя эту форму.",
+    "email": "ainagulkzt@gmail.com",
+    "phone": "+77013617044",
     "instagram":"https://www.instagram.com/ainaserikusa",
-    "whatsapp":"https://github.com/nordicgiant2/react-nice-resume",
+    "whatsapp":"https://api.whatsapp.com/send/?phone=77013617044&text&type=phone_number&app_absent=0",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"Edgewood Towne Centre",
+      "city":"Pittsburgh",
+      "state":"USA",
+      "zip": "15218"
     },
     "website": "http://www.timbakerdev.com",
     "social":[
       {
         "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://www.facebook.com/people/Aida-Tabyldiyeva/100070758644601/",
         "className":"fa fa-facebook"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"https://www.instagram.com/ainaserikusa/",
         "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-  
-  },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "Michael Kors",
-        "image": "kors.jpg",
-        "url": "https://www.michaelkors.com/"
-      },
-      {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "02.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "03.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "04.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "05.jpg",
-        "url": "http://www.smirkspace.com"
-      },
-      {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "06.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      },
-      {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "01.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "02.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "03.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "04.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "05.jpg",
-        "url": "http://www.smirkspace.com"
-      },
-      {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "06.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      }
-    ]
   }
 }
