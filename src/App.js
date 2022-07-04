@@ -5,8 +5,8 @@ import "./App.css";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
-import Resume from "./Components/Resume";
-import Portfolio from "./Components/Portfolio";
+import Services from "./Components/Services";
+import Order from "./Components/Order";
 import Contact from "./Components/Contact";
 
 
@@ -46,8 +46,8 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
-        <Portfolio />
+        <Services data={this.state.resumeData.resume} />
+        <Order />
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
       </div>
