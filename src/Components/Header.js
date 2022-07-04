@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 
 class Header extends Component {
@@ -10,9 +9,8 @@ class Header extends Component {
     const description = this.props.data.description;
 
     return (
-      <header id="home">
-        <ParticlesBg type="circle" bg={true} />
-
+      <header id="home" className='hero-container'>
+        <video src='/videos/video-1.mp4' autoPlay loop muted />
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
@@ -20,7 +18,6 @@ class Header extends Component {
           <a className="mobile-btn" href="#home" title="Hide navigation">
             Hide navigation
           </a>
-
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
