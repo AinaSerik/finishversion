@@ -1,5 +1,6 @@
-import React, { Component } from "react";
-import { Fade, Slide } from "react-reveal";
+import React, {Component} from "react";
+import {Fade, Slide} from "react-reveal";
+import Toggle from "./Toggle";
 
 class Contact extends Component {
   render() {
@@ -10,6 +11,7 @@ class Contact extends Component {
     const city = this.props.data.address.city;
     const state = this.props.data.address.state;
     const zip = this.props.data.address.zip;
+    const phone = this.props.data.address.phone;
     const message = this.props.data.contactmessage;
 
     return (
@@ -18,10 +20,9 @@ class Contact extends Component {
           <div className="row section-head">
             <div className="two columns header-col">
               <h1>
-                <span>Мы на связи.</span>
+                <span>Связаться с нами</span>
               </h1>
             </div>
-
             <div className="ten columns">
               <p className="lead">{message}</p>
             </div>
@@ -31,74 +32,26 @@ class Contact extends Component {
         <div className="row">
           <Slide left duration={1000}>
             <div className="eight columns">
-              <form action="" method="post" id="contactForm" name="contactForm">
-                <fieldset>
-                  <div>
-                    <label htmlFor="contactName">
-                      Name <span className="required">*</span>
-                    </label>
-                    <input
-                      type="text"
-                      defaultValue=""
-                      size="35"
-                      id="contactName"
-                      name="contactName"
-                      onChange={this.handleChange}
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="contactEmail">
-                      Email <span className="required">*</span>
-                    </label>
-                    <input
-                      type="text"
-                      defaultValue=""
-                      size="35"
-                      id="contactEmail"
-                      name="contactEmail"
-                      onChange={this.handleChange}
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="contactSubject">Subject</label>
-                    <input
-                      type="text"
-                      defaultValue=""
-                      size="35"
-                      id="contactSubject"
-                      name="contactSubject"
-                      onChange={this.handleChange}
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="contactMessage">
-                      Message <span className="required">*</span>
-                    </label>
-                    <textarea
-                      cols="50"
-                      rows="15"
-                      id="contactMessage"
-                      name="contactMessage"
-                    ></textarea>
-                  </div>
-
-                  <div>
-                    <button className="submit">Отправить</button>
-                    <span id="image-loader">
-                      <img alt="" src="images/loader.gif" />
-                    </span>
-                  </div>
-                </fieldset>
-              </form>
-
-              <div id="message-warning">Ошибка</div>
-              <div id="message-success">
-                <i className="fa fa-check"></i>Ваше сообщение отправлено, спасибо!
-                <br />
-              </div>
+              <Toggle title="Процесс покупки">
+                <div className="answer">
+                  <p>Скинуть нам ссылку корзины с товаром в ватсап, скинуть чек об оплате на ватсап и ждете посылку</p>
+                </div>
+              </Toggle>
+              <Toggle title="Когда оплачитвать за доставку">
+                <div className="answer">
+                  <p>За доставку оплачиваете после того, как товар отправлен. Мы, при получении вашего товара, его взвешиваем и считаем точную сумму за доставку.</p>
+                </div>
+              </Toggle>
+              <Toggle title="С какими онлайн-магазинами вы работаете">
+                <div className="answer">
+                  <p>Если вы не нашли онлайн-магазин, где хотели бы совершить покупку, то свяжитесь с нами по ватсап. Мы решим этот вопрос в вашу пользу</p>
+                </div>
+              </Toggle>
+              <Toggle title="Возможно ли отменить заказ">
+                <div className="answer">
+                  <p>Заказ можно отменить в течние 24 часа, так как некоторые онлайн-магазины отправляют товар в ускоренные сроки и чтобы отменить их заказ нам придется самим оплачивать доставку, что является экономически нерентабельно для нашей компании</p>
+                </div>
+              </Toggle>
             </div>
           </Slide>
 
@@ -110,7 +63,8 @@ class Contact extends Component {
                   {name}
                   <br />
                   {street} <br />
-                  {city}, {state} {zip}
+                  {city}, {zip} {state} <br />
+                  {phone}
                 </p>
               </div>
             </aside>

@@ -42,7 +42,6 @@ class Header extends Component {
                 <strong>Заказ</strong>
               </a>
             </li>
-
             <li>
               <a className="smoothscroll" href="#contact">
                 <strong>Контакты</strong>
