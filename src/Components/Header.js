@@ -66,7 +66,7 @@ class Header extends Component {
                 className="button btn instagram-btn">
                 <i className="fa fa-instagram"></i>Instagram
                 </a>
-                <a href="https://wa.me/77013617044"
+                <a href="https://wa.me/"
                 target="a_blank"
                 rel="noopener noreferrer"
                 className="button btn whatsapp-btn">
