@@ -9,11 +9,11 @@
     "instagram":"https://www.instagram.com/shopikusa/",
     "whatsapp":"https://api.whatsapp.com/send/?phone=77013617044&text&type=phone_number&app_absent=0",
     "address":{
-      "street":"Edgewood Towne Centre",
-      "city":"Pittsburgh, Pennsylvania",
-      "zip": "15218",
+      "street":"",
+      "city":"",
+      "zip": "",
       "state":"USA",
-      "phone": "phone: +1 412 3521383"
+      "phone": "phone"
     },
 
     "social":[
