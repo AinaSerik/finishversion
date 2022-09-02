@@ -61,12 +61,12 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href="https://www.instagram.com/" target="a_blank" 
+                <a href="https://www.instagram.com/aidasworkshop" target="a_blank" 
                 rel="noopener noreferrer" 
                 className="button btn instagram-btn">
                 <i className="fa fa-instagram"></i>Instagram
                 </a>
-                <a href="https://wa.me/"
+                <a href="https://wa.me/77013617044"
                 target="a_blank"
                 rel="noopener noreferrer"
                 className="button btn whatsapp-btn">
